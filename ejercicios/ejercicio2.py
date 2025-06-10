@@ -1,6 +1,7 @@
 nombre_archivo = input("Ingrese el nombre del archivo: ")
 mi_ruta = 'C:\\Users\\labc205\\Documents\\Semana12\\'
 nombre_archivo = open(mi_ruta + nombre_archivo)
+mi_archivo = open(mi_archivo)
 try:
     with open(nombre_archivo, 'r') as archivo:
         lineas = archivo.readlines()
